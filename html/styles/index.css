@@ -2,12 +2,25 @@ body {
     display: flex;
     flex-direction: column;
     color: blue
+    width:150px;
+    margin:10px 50px;
+    padding:20px;
+    font-size:italic;
+    color:#000;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: rgba(13, 181, 227, 0.354);
 }
 header {
     flex-direction: column;
-    color: red
+    color: red;
     vertical-align: middle;
-
+    flex-grow:1
+}
+header, #logo {
+    align-items:center;
+    margin-left: 800;
+    margin-left: 2;
 }
 main {
     display: flex;
@@ -25,9 +38,9 @@ aside {
     overflow-y: auto;
     color: green
 }
+
+
 /* 
-
-
 body {
     display: flex;
     flex-direction: column;
